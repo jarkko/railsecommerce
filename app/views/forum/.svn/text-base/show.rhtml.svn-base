@@ -1,6 +1,0 @@
-<h1><%= h @post.subject %></h1>
-<b>Name:<%= h @post.name %></b>
-<p>
-<%= h @post.body %>
-</p>
-<%= link_to 'Reply', :action => 'reply', :id => @post %>

@@ -1,9 +1,0 @@
-|verifyLocation|/forum||
-|assertTitle|Emporium||
-|clickAndWait|link=My latest book|
-|assertTitle|Emporium||
-|assertTextPresent|My latest book||
-|assertTextPresent|Name:Elvis||
-|assertTextPresent|New Elvis sandwich recipes for dummies book is available. Get it at Amazon.com now!!!||
-|assertTextPresent|Reply||
-

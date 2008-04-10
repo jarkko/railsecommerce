@@ -1,9 +1,0 @@
-<%= render :partial => "search_box" %>
-
-<% if @notice %>
-	<p id="notice">
-	<%= @notice %>
-	</p>
-<% end %>
-
-<%= render(:partial => "books", :object => @books) if @books %>
