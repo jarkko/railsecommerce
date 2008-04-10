@@ -1,0 +1,57 @@
+pro_ruby_ecommerce:
+  author_id: 1
+  book_id: 1
+pro_ruby_ecommerce:
+  author_id: 2
+  book_id: 1
+pro_rails_second_ed:
+  author_id: 1
+  book_id: 2
+pragprog_thomas:
+  author_id: 1
+  book_id: 3
+pragprog_hunt:
+  author_id: 2
+  book_id: 3
+alice:
+  author_id: 3
+  book_id: 4
+pride_and_prejudice:
+  author_id: 4
+  book_id: 5
+emma:
+  author_id: 4
+  book_id: 6
+david_copperfield:
+  author_id: 5
+  book_id: 7
+nicholas_nickleby:
+  author_id: 5
+  book_id: 8
+around_the_world:
+  author_id: 6
+  book_id: 9
+raven:
+  author_id: 7
+  book_id: 10
+rue_morgue:
+  author_id: 7
+  book_id: 11
+huckleberry_finn:
+  author_id: 8
+  book_id: 12
+tom_sawyer:
+  author_id: 8
+  book_id: 13
+anna_karenina:
+  author_id: 9
+  book_id: 14
+war_and_peace:
+  author_id: 9
+  book_id: 15
+crime_and_punishment:
+  author_id: 10
+  book_id: 16
+idiot:
+  author_id: 10
+  book_id: 17

@@ -1,0 +1,10 @@
+|assertLocation|/forum||
+|assertTitle|Emporium||
+|clickAndWait|link=Be the first one to post here||
+|type|post_name|Elvis|
+|type|post_subject|My latest book|
+|type|post_body|New Elvis sandwich recipes for dummies book is available. Get it at Amazon.com now!!!|
+|clickAndWait|commit||
+|assertTitle|Emporium||
+|assertTextPresent|My latest book by Elvis||
+

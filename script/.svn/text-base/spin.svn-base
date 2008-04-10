@@ -1,0 +1,1 @@
+/u/apps/emporium/current/script/process/spinner -c '/u/apps/emporium/current/script/process/spawner -p 7000 -i 4' -d

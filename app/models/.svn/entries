@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/app/models"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="4"
+   name="publisher.rb"
+   text-time="2006-04-12T09:39:02.000000Z"
+   committed-date="2006-04-06T00:04:44.335331Z"
+   checksum="ea183ba9420aaf8cf795cfd3202ac98c"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:02.000000Z"/>
+<entry
+   committed-rev="24"
+   name="forum_post.rb"
+   text-time="2006-07-06T08:58:29.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="267858faadf91dda7ffd15217b8fdf55"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:29.000000Z"/>
+<entry
+   committed-rev="23"
+   name="author.rb"
+   text-time="2006-04-24T10:41:01.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="3c20367181f64ec47122889a26baa619"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:02.000000Z"/>
+<entry
+   committed-rev="24"
+   name="book.rb"
+   text-time="2006-04-26T17:44:43.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="958653e0be682af4815097f99a0b04c2"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:29.000000Z"/>
+</wc-entries>

@@ -1,0 +1,13 @@
+page.insert_html :top, "shopping_cart", :partial => "cart/cart_notice"
+if @cart.books.include?(@book)
+  page.replace_html "cart_item_#{@book.id}", :partial => "cart/item"
+  page.visual_effect :highlight, "cart_item_#{@book.id}", :duration => 3
+else
+  page.visual_effect :fade, "cart_item_#{@book.id}", :duration => 1.5
+end
+if @cart.cart_items.empty?
+  page.hide "clear_cart_link"
+  page.hide "checkout_link"
+end
+page.replace_html "cart_total", "<strong>Total: $#{@cart.total}</strong>"
+page.visual_effect :fade, 'cart_notice', :duration => 3

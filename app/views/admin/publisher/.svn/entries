@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2006-04-06T00:01:05.670170Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/app/views/admin/publisher"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="3"
+   name="list.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="da8bcc28838b65b8a10b48ca171bc4ad"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="show.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="8d12394402098e55ed875628fe8c7aca"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="_form.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="167a7aee699704037bb8c5db926057d5"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="edit.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="d4636f0c03dcc1a95daa4bff57ea57ba"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="new.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="a4f3d8f60197df83b5ec344bf3eb16ff"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+</wc-entries>

@@ -1,0 +1,2 @@
+page.replace_html "shopping_cart", :partial => "cart/cart"
+page.visual_effect :fade, 'cart_notice', :duration => 3

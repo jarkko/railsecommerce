@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/selenium_on_rails/generators"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   name="selenium"
+   kind="dir"/>
+</wc-entries>

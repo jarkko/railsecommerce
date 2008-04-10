@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/app/views/catalog"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="23"
+   name="_books.rhtml"
+   text-time="2006-04-26T12:40:09.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="cb6fb34ee6d8a9d20216383e71dcafab"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="_search_box.rhtml"
+   text-time="2006-04-26T12:45:24.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="c96eb97bff8f9f8f95ad56f4e3923afa"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="latest.rhtml"
+   text-time="2006-04-26T16:20:42.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="e77105a1ef346d7e443124a3e9bf975b"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="show.rhtml"
+   text-time="2006-04-26T13:08:08.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="aa0bbfbf62a355c0747a1bca4d9bc7e3"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="rss.rxml"
+   text-time="2006-04-26T17:50:53.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="dd7d180ccbff160b2cb44e7053de0775"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="search.rhtml"
+   text-time="2006-04-26T14:06:04.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="6797e6bbd84a6af82cb6cbd9b1847fd7"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="24"
+   name="index.rhtml"
+   text-time="2006-07-06T08:58:29.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="a15e72979f6a69130f8ac24c49d162c1"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:29.000000Z"/>
+</wc-entries>

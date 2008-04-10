@@ -1,0 +1,19 @@
+<% unless @parent_post.nil? %>
+<h1>Reply to '<%= h @parent_post.subject %>'</h1>
+<% else %>
+<h1>Post to forum</h1>
+<% end %>
+<%= start_form_tag :action => 'create' %>
+    <%= error_messages_for 'post' %>
+    <%= hidden_field :post, :parent_id %>
+    <p><label for="post_name">Name</label><br/>
+    <%= text_field 'post', 'name'  %></p>
+    <p><label for="post_subject">Subject</label><br/>
+    <%= text_field 'post', 'subject'  %></p>
+    <p><label for="post_body">Body</label><br/>
+    <%= text_area 'post', 'body'  %></p>
+
+  <%= submit_tag "Post" %>
+<%= end_form_tag %>
+
+

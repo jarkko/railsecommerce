@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2006-03-22T18:51:26.461756Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/script/process"
+   last-author="jarkko"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="1"
+   name="spawner"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T18:51:26.461756Z"
+   checksum="e7e52ded28489a821b5eb156f92ca0f5"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="reaper"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T18:51:26.461756Z"
+   checksum="77608fa9e09e9f24410e7374c67956b7"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="spinner"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T18:51:26.461756Z"
+   checksum="69800f080d6bdd2f06c76c32f23c2c86"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+</wc-entries>

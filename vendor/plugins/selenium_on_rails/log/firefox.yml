@@ -1,0 +1,8 @@
+--- 
+result: failed
+numTestPasses: "2"
+numTestFailures: "2"
+numCommandFailures: "0"
+numCommandPasses: "9"
+numCommandErrors: "2"
+totalTime: "3"

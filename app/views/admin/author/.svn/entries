@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2006-04-12T09:13:57.490494Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/app/views/admin/author"
+   last-author="jarkko"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="5"
+   name="list.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-12T09:13:57.490494Z"
+   checksum="b772a36b83fa27ae65913f2326ef1b0a"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="show.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:01:05.670170Z"
+   checksum="a51f849aae1c89143cbc8d620d1596b8"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="5"
+   name="_form.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-12T09:13:57.490494Z"
+   checksum="9621ec70bbee1367d04579569bb19c68"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="2"
+   name="delete.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T20:28:36.547073Z"
+   checksum="75e3a920e8772b695f7899a4c6dce430"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="2"
+   name="update.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T20:28:36.547073Z"
+   checksum="569d66b9677fb39a63e88bfad3615966"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="2"
+   name="create.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T20:28:36.547073Z"
+   checksum="fb8ee8f4ead0460b3dc5cfdb3002af4c"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="5"
+   name="edit.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-12T09:13:57.490494Z"
+   checksum="b696c09cf873f85b21e3b61876e18f89"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="4"
+   name="destroy.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-06T00:04:44.335331Z"
+   checksum="a5565ac019e3edffd3bb4cf23fa96f7a"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="5"
+   name="new.rhtml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-04-12T09:13:57.490494Z"
+   checksum="041ffd7b7cd09bd9023a7bcc88fe5f7a"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+</wc-entries>

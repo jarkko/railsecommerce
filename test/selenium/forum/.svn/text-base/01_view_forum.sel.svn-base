@@ -1,0 +1,5 @@
+|open|/selenium/setup?fixtures=forum_posts||
+|open|/forum||
+|assertTitle|Emporium||
+|assertTextPresent|Forum||
+|assertTextPresent|There are no posts||

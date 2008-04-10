@@ -1,0 +1,64 @@
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/tcphack.rb:6:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/tcphack.rb:6:in `initialize'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel.rb:347:in `initialize'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:91:in `start_mongrel'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:138:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/command.rb:163:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:222
+	from /usr/local/bin/mongrel_rails:18
+Server ready.
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/tcphack.rb:6:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/tcphack.rb:6:in `initialize'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel.rb:347:in `initialize'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:91:in `start_mongrel'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:138:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/lib/mongrel/command.rb:163:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.10.1/bin/mongrel_rails:222
+	from /usr/local/bin/mongrel_rails:18
+Server ready.
+#<File:/tmp/CGI7693.2>
+#<File:/tmp/CGI7693.6>
+#<StringIO:0x2568578>
+#<StringIO:0x276fed4>
+"IMG_1203.jpg"
+Server stopped.  Exiting.
+Shutdown waiting for 20 requests
+Server ready.
+#<StringIO:0x2717e14>
+#<StringIO:0x273df10>
+** Starting Rails in environment development ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+""
+"jarkko-ski-o.jpg"
+** USR2 signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Restarting with arguments:  ruby /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails start -d
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:105:in `exec': Operation not supported - ruby /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails start -d (Errno::EOPNOTSUPP)
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:105:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/lib/mongrel/command.rb:163:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/mongrel-0.3.12.4/bin/mongrel_rails:194
+	from /usr/local/bin/mongrel_rails:18
+** Starting Rails in environment development ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000
+/Users/jarkko/Sites/emporium/config/../app/views/catalog/rss.rxml:7: warning: don't put space before argument parentheses
+** TERM signal received.
+** Stopping 0.0.0.0:3000 listener.
+Server stopped.  Exiting.
+** Starting Rails in environment development ...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Running 0.0.0.0:3000 listener.
+** Mongrel available at 0.0.0.0:3000

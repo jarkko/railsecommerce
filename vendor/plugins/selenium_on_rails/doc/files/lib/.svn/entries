@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/selenium_on_rails/doc/files/lib"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="24"
+   name="selenium_on_rails_config_rb.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="b577e4ae46c25e3661b89475e492195e"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="controllers"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="selenium_helper_rb.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="a0fce3aadc11401b9a24cb0b496447c0"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="selenium_on_rails"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="selenium_on_rails_rb.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="6376a0924237874605e9ed426cd5c15c"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+</wc-entries>

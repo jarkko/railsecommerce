@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/selenium_on_rails/test_data"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   name="partials"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="_partial.rsel"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="802338326ca00882c93a8bcfde582b78"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   name="suite_two"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="own_layout.html"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="0c31138a81871c805e5f16611de773fb"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="24"
+   name="selenese.sel"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="2ec09fc8d990da9394ff197eb0545ac6"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   name="empty_suite"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="html.html"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="3135eba6f7c1e941f9b1114745a4bb41"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="24"
+   name="rselenese.rsel"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="d880f3bc9c5642a2229962298b087453"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   name="suite_one"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="rhtml.rhtml"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="3fea5acb89bc147899c9597ad7dc8ddc"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+</wc-entries>

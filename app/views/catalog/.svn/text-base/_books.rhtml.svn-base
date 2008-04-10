@@ -1,0 +1,9 @@
+<dl id="books">
+	<% for book in books %>
+		<dt><%= link_to book.title, :action => "show", :id => book %></dt>
+		<% for author in book.authors %>
+		  <dd><%= author.last_name %>, <%= author.first_name %></dd>
+		<% end %>
+		  <dd><small>Publisher: <%= book.publisher.name %></small></dd>
+	<% end %>
+</dl>

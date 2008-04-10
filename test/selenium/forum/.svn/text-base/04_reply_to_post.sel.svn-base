@@ -1,0 +1,12 @@
+|assertTextPresent|My latest book||
+|clickAndWait|link=Reply||
+|assertTitle|Emporium||
+|type|post_name|Giorgio W|
+|type|post_subject|Great stuff!!|
+|type|post_body|Thanks Elvis! This one is a classic.|
+|clickAndWait|commit||
+|assertTitle|Emporium||
+|assertTextPresent|Great stuff!! by Giorgio W||
+|assertTextPresent|My latest book by Elvis||
+|assertLocation|/forum||
+

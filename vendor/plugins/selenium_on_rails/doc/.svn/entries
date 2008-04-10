@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/selenium_on_rails/doc"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="24"
+   name="fr_file_index.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="25b5f8cb51343cd33dd0a6040408206f"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="fr_method_index.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="2a386721834173daa6064882a8b6b736"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="files"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="created.rid"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="8c8111216bad0ae69c132eb468e24400"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="fr_class_index.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="759c8f629874f0ead282a377ec0bdddd"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="index.html"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="673dd8dcc114c5fc078cc3cb05f7d3f1"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="rdoc-style.css"
+   text-time="2006-07-06T08:58:34.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="0c891a5ba3edceb7385fb3030a0caafa"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="classes"
+   kind="dir"/>
+</wc-entries>

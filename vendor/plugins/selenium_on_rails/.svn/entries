@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2006-05-05T00:02:52.115667Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/selenium_on_rails"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="log"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="Rakefile"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="86310783311b49523621ce23cafef4cc"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="routes.rb"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="8fe636e1943dec18a6f863689c77066c"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="tasks"
+   kind="dir"/>
+<entry
+   name="switch_environment"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="README"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="1abc02377b5f7e05731c22009a973e09"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="24"
+   name="config.yml.example"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="0e291852b62a8764d84d1404cd81ca5b"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="init.rb"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="e9b042bd9d81f6a1f82551aee980a3c6"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   committed-rev="24"
+   name="config.yml"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="869289dd897a01dfb959b219e6ef5c74"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:34.000000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="test_data"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="MIT-LICENSE"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="0a003e9c1505984ed804a5fc15d5f7c2"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   name="generators"
+   kind="dir"/>
+</wc-entries>

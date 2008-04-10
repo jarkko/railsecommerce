@@ -1,0 +1,212 @@
+  [4;36;1mSQL (0.000341)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000643)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000268)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBook Load (0.000461)[0m   [0mSELECT * FROM `books` LIMIT 1[0m
+  [4;36;1mBook Columns (0.001952)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.000182)[0m   [0mBEGIN[0m
+  [4;36;1mPublisher Columns (0.001860)[0m   [0;1mSHOW FIELDS FROM `publishers`[0m
+  [4;35;1mPublisher Load (0.000248)[0m   [0mSELECT * FROM `publishers` WHERE (`publishers`.`id` = 1) [0m
+  [4;36;1mJoin Table Columns (0.001627)[0m   [0;1mSHOW FIELDS FROM `authors_books`[0m
+  [4;35;1mAuthor Load (0.000547)[0m   [0mSELECT * FROM `authors` INNER JOIN authors_books ON authors.id = authors_books.author_id WHERE (authors_books.book_id = 1 ) [0m
+  [4;36;1mBook Update (0.000304)[0m   [0;1mUPDATE `books` SET `created_at` = '2008-01-24 09:52:53', `title` = 'BRE', `page_count` = NULL, `cover_image` = NULL, `price` = 26, `publisher_id` = 1, `published_at` = NULL, `blurb` = NULL, `updated_at` = '2008-01-24 10:06:16', `isbn` = NULL WHERE `id` = 1[0m
+  [4;35;1mSQL (0.041656)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000913)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000162)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000304)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;35;1mSQL (0.035932)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.118476)[0m   [0;1mALTER TABLE `books` CHANGE `price` `price` float DEFAULT NULL[0m
+  [4;35;1mSQL (0.000976)[0m   [0mUPDATE schema_info SET version = 7[0m
+Reached target version: 7
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000326)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000147)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;36;1mSQL (0.002251)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.028435)[0m   [0mALTER TABLE `books` CHANGE `price` `price` decimal DEFAULT NULL[0m
+  [4;36;1mSQL (0.000945)[0m   [0;1mUPDATE schema_info SET version = 8[0m
+  [4;35;1mSQL (0.000318)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000469)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001675)[0m   [0mSHOW FIELDS FROM `authors`[0m
+  [4;36;1mSQL (0.001968)[0m   [0;1mdescribe `authors`[0m
+  [4;35;1mSQL (0.000545)[0m   [0mSHOW KEYS FROM `authors`[0m
+  [4;36;1mSQL (0.001685)[0m   [0;1mSHOW FIELDS FROM `authors_books`[0m
+  [4;35;1mSQL (0.001739)[0m   [0mdescribe `authors_books`[0m
+  [4;36;1mSQL (0.001177)[0m   [0;1mSHOW KEYS FROM `authors_books`[0m
+  [4;35;1mSQL (0.002273)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.003744)[0m   [0;1mdescribe `books`[0m
+  [4;35;1mSQL (0.000537)[0m   [0mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.001861)[0m   [0;1mSHOW FIELDS FROM `books_tags`[0m
+  [4;35;1mSQL (0.001998)[0m   [0mdescribe `books_tags`[0m
+  [4;36;1mSQL (0.000834)[0m   [0;1mSHOW KEYS FROM `books_tags`[0m
+  [4;35;1mSQL (0.001688)[0m   [0mSHOW FIELDS FROM `cart_items`[0m
+  [4;36;1mSQL (0.002270)[0m   [0;1mdescribe `cart_items`[0m
+  [4;35;1mSQL (0.002405)[0m   [0mSHOW KEYS FROM `cart_items`[0m
+  [4;36;1mSQL (0.002314)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mSQL (0.002773)[0m   [0mdescribe `carts`[0m
+  [4;36;1mSQL (0.031643)[0m   [0;1mSHOW KEYS FROM `carts`[0m
+  [4;35;1mSQL (0.003011)[0m   [0mSHOW FIELDS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.002147)[0m   [0;1mdescribe `forum_posts`[0m
+  [4;35;1mSQL (0.000437)[0m   [0mSHOW KEYS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.002004)[0m   [0;1mSHOW FIELDS FROM `order_items`[0m
+  [4;35;1mSQL (0.002310)[0m   [0mdescribe `order_items`[0m
+  [4;36;1mSQL (0.000431)[0m   [0;1mSHOW KEYS FROM `order_items`[0m
+  [4;35;1mSQL (0.002665)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mSQL (0.002246)[0m   [0;1mdescribe `orders`[0m
+  [4;35;1mSQL (0.000431)[0m   [0mSHOW KEYS FROM `orders`[0m
+  [4;36;1mSQL (0.001621)[0m   [0;1mSHOW FIELDS FROM `publishers`[0m
+  [4;35;1mSQL (0.001848)[0m   [0mdescribe `publishers`[0m
+  [4;36;1mSQL (0.000737)[0m   [0;1mSHOW KEYS FROM `publishers`[0m
+  [4;35;1mSQL (0.001575)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (0.001720)[0m   [0;1mdescribe `tags`[0m
+  [4;35;1mSQL (0.000902)[0m   [0mSHOW KEYS FROM `tags`[0m
+  [4;36;1mSQL (0.001641)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.002183)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.027097)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000248)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000533)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000175)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000392)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;35;1mSQL (0.002595)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.049491)[0m   [0;1mALTER TABLE `books` CHANGE `price` `price` float DEFAULT NULL[0m
+  [4;35;1mSQL (0.007896)[0m   [0mUPDATE schema_info SET version = 7[0m
+Reached target version: 7
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000300)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.035502)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000333)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000181)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000168)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000195)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;36;1mSQL (0.002455)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.017362)[0m   [0mALTER TABLE `books` CHANGE `price` `price` decimal(2) DEFAULT NULL[0m
+  [4;36;1mSQL (0.000851)[0m   [0;1mUPDATE schema_info SET version = 8[0m
+  [4;35;1mSQL (0.000416)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000421)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001657)[0m   [0mSHOW FIELDS FROM `authors`[0m
+  [4;36;1mSQL (0.001975)[0m   [0;1mdescribe `authors`[0m
+  [4;35;1mSQL (0.000911)[0m   [0mSHOW KEYS FROM `authors`[0m
+  [4;36;1mSQL (0.003025)[0m   [0;1mSHOW FIELDS FROM `authors_books`[0m
+  [4;35;1mSQL (0.004947)[0m   [0mdescribe `authors_books`[0m
+  [4;36;1mSQL (0.001265)[0m   [0;1mSHOW KEYS FROM `authors_books`[0m
+  [4;35;1mSQL (0.002362)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.002721)[0m   [0;1mdescribe `books`[0m
+  [4;35;1mSQL (0.001909)[0m   [0mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.001791)[0m   [0;1mSHOW FIELDS FROM `books_tags`[0m
+  [4;35;1mSQL (0.001852)[0m   [0mdescribe `books_tags`[0m
+  [4;36;1mSQL (0.000592)[0m   [0;1mSHOW KEYS FROM `books_tags`[0m
+  [4;35;1mSQL (0.002152)[0m   [0mSHOW FIELDS FROM `cart_items`[0m
+  [4;36;1mSQL (0.001744)[0m   [0;1mdescribe `cart_items`[0m
+  [4;35;1mSQL (0.000772)[0m   [0mSHOW KEYS FROM `cart_items`[0m
+  [4;36;1mSQL (0.001711)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mSQL (0.001753)[0m   [0mdescribe `carts`[0m
+  [4;36;1mSQL (0.032539)[0m   [0;1mSHOW KEYS FROM `carts`[0m
+  [4;35;1mSQL (0.002245)[0m   [0mSHOW FIELDS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.002465)[0m   [0;1mdescribe `forum_posts`[0m
+  [4;35;1mSQL (0.000344)[0m   [0mSHOW KEYS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.001794)[0m   [0;1mSHOW FIELDS FROM `order_items`[0m
+  [4;35;1mSQL (0.002398)[0m   [0mdescribe `order_items`[0m
+  [4;36;1mSQL (0.000833)[0m   [0;1mSHOW KEYS FROM `order_items`[0m
+  [4;35;1mSQL (0.002066)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mSQL (0.002465)[0m   [0;1mdescribe `orders`[0m
+  [4;35;1mSQL (0.000801)[0m   [0mSHOW KEYS FROM `orders`[0m
+  [4;36;1mSQL (0.002611)[0m   [0;1mSHOW FIELDS FROM `publishers`[0m
+  [4;35;1mSQL (0.001590)[0m   [0mdescribe `publishers`[0m
+  [4;36;1mSQL (0.000647)[0m   [0;1mSHOW KEYS FROM `publishers`[0m
+  [4;35;1mSQL (0.001607)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (0.001824)[0m   [0;1mdescribe `tags`[0m
+  [4;35;1mSQL (0.000668)[0m   [0mSHOW KEYS FROM `tags`[0m
+  [4;36;1mSQL (0.002310)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.002171)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.027033)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mBook Load (0.000423)[0m   [0;1mSELECT * FROM `books` LIMIT 1[0m
+  [4;35;1mSQL (0.000212)[0m   [0mBEGIN[0m
+  [4;36;1mPublisher Load (0.000337)[0m   [0;1mSELECT * FROM `publishers` WHERE (`publishers`.`id` = 1) [0m
+  [4;35;1mJoin Table Columns (0.002135)[0m   [0mSHOW FIELDS FROM `authors_books`[0m
+  [4;36;1mAuthor Load (0.000686)[0m   [0;1mSELECT * FROM `authors` INNER JOIN authors_books ON authors.id = authors_books.author_id WHERE (authors_books.book_id = 1 ) [0m
+  [4;35;1mBook Update (0.000358)[0m   [0mUPDATE `books` SET `created_at` = '2008-01-24 09:52:53', `title` = 'BRE', `page_count` = NULL, `cover_image` = NULL, `price` = 26, `publisher_id` = 1, `published_at` = NULL, `blurb` = NULL, `updated_at` = '2008-01-24 10:08:28', `isbn` = NULL WHERE `id` = 1[0m
+  [4;36;1mSQL (0.000479)[0m   [0;1mCOMMIT[0m
+  [4;35;1mBook Load (0.000370)[0m   [0mSELECT * FROM `books` LIMIT 1[0m
+  [4;36;1mSQL (0.000240)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000530)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000165)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;35;1mSQL (0.069638)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.028527)[0m   [0;1mALTER TABLE `books` CHANGE `price` `price` float DEFAULT NULL[0m
+  [4;35;1mSQL (0.000891)[0m   [0mUPDATE schema_info SET version = 7[0m
+Reached target version: 7
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000338)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000119)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to ChangeBookPriceToDecimal (8)
+  [4;36;1mSQL (0.002534)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.031601)[0m   [0mALTER TABLE `books` CHANGE `price` `price` decimal(10,2) DEFAULT NULL[0m
+  [4;36;1mSQL (0.000795)[0m   [0;1mUPDATE schema_info SET version = 8[0m
+  [4;35;1mSQL (0.000297)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000473)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001495)[0m   [0mSHOW FIELDS FROM `authors`[0m
+  [4;36;1mSQL (0.002240)[0m   [0;1mdescribe `authors`[0m
+  [4;35;1mSQL (0.001183)[0m   [0mSHOW KEYS FROM `authors`[0m
+  [4;36;1mSQL (0.001758)[0m   [0;1mSHOW FIELDS FROM `authors_books`[0m
+  [4;35;1mSQL (0.002543)[0m   [0mdescribe `authors_books`[0m
+  [4;36;1mSQL (0.001408)[0m   [0;1mSHOW KEYS FROM `authors_books`[0m
+  [4;35;1mSQL (0.002075)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mSQL (0.002013)[0m   [0;1mdescribe `books`[0m
+  [4;35;1mSQL (0.011491)[0m   [0mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.013051)[0m   [0;1mSHOW FIELDS FROM `books_tags`[0m
+  [4;35;1mSQL (0.002099)[0m   [0mdescribe `books_tags`[0m
+  [4;36;1mSQL (0.000507)[0m   [0;1mSHOW KEYS FROM `books_tags`[0m
+  [4;35;1mSQL (0.002078)[0m   [0mSHOW FIELDS FROM `cart_items`[0m
+  [4;36;1mSQL (0.002240)[0m   [0;1mdescribe `cart_items`[0m
+  [4;35;1mSQL (0.001588)[0m   [0mSHOW KEYS FROM `cart_items`[0m
+  [4;36;1mSQL (0.001629)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mSQL (0.001847)[0m   [0mdescribe `carts`[0m
+  [4;36;1mSQL (0.030631)[0m   [0;1mSHOW KEYS FROM `carts`[0m
+  [4;35;1mSQL (0.003133)[0m   [0mSHOW FIELDS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.002018)[0m   [0;1mdescribe `forum_posts`[0m
+  [4;35;1mSQL (0.000463)[0m   [0mSHOW KEYS FROM `forum_posts`[0m
+  [4;36;1mSQL (0.001770)[0m   [0;1mSHOW FIELDS FROM `order_items`[0m
+  [4;35;1mSQL (0.002604)[0m   [0mdescribe `order_items`[0m
+  [4;36;1mSQL (0.000842)[0m   [0;1mSHOW KEYS FROM `order_items`[0m
+  [4;35;1mSQL (0.002244)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mSQL (0.002055)[0m   [0;1mdescribe `orders`[0m
+  [4;35;1mSQL (0.000402)[0m   [0mSHOW KEYS FROM `orders`[0m
+  [4;36;1mSQL (0.001634)[0m   [0;1mSHOW FIELDS FROM `publishers`[0m
+  [4;35;1mSQL (0.001821)[0m   [0mdescribe `publishers`[0m
+  [4;36;1mSQL (0.000762)[0m   [0;1mSHOW KEYS FROM `publishers`[0m
+  [4;35;1mSQL (0.001481)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (0.001964)[0m   [0;1mdescribe `tags`[0m
+  [4;35;1mSQL (0.000875)[0m   [0mSHOW KEYS FROM `tags`[0m
+  [4;36;1mSQL (0.001952)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.002602)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.030156)[0m   [0;1mSHOW KEYS FROM `users`[0m

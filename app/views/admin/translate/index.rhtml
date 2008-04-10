@@ -1,0 +1,43 @@
+<h1>Translating from <%= Locale.base_language %> to <%= Locale.language.english_name %></h1>
+
+<%= form_tag :action => 'translate' %>
+  <p><label for="text">Text</label><br />
+  <%= text_field 'view', 'text' %></p>
+  <p><label for="translation">Translation</label><br />
+  <%= text_field 'view', 'translation' %></p>
+  <%= submit_tag "Save" %>
+<%= end_form_tag %>
+
+<table id="list" style="border 1px solid black;">
+  <tr>
+    <th>id</th>
+    <th>key</th>
+    <th>qty</th>
+    <th>translation</th>
+  </tr>
+  <% @view_translations.each do |tr| %>
+  <tr id="row_<%= tr.id %>">
+    <td><%= tr.id %></td>
+    <td><%= tr.tr_key %></td>
+    <td><%= tr.pluralization_index %></td>
+    <td>
+    <span id="tr_<%= tr.id %>" <%= 'class="translate"' if tr.text.nil? %>>
+      <%= tr.text || 'Click here to translate' %>
+    </span>
+    </td>
+    <td>
+   <%= link_to_remote "Delete",
+      :url => { :action => "delete", :id => tr.id},
+      :confirm => "Are you sure you want to delete '#{tr.id}'?",
+      :post => true
+    %>
+    </td>
+
+  </tr>
+  <%= in_place_editor "tr_#{tr.id}",
+        :url => { :action => :set_translation_text, :id => tr.id },
+        :load_text_url => url_for({ :action => :get_translation_text, :id => tr.id }) %>
+  <% end %>
+</table>
+
+

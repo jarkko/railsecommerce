@@ -1,0 +1,27 @@
+<h1>Listing authors</h1>
+
+<table>
+  <tr>
+  <% for column in Author.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for author in @authors %>
+  <tr>
+  <% for column in Author.content_columns %>
+    <td><%=h author.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => author %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => author %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => author }, :confirm => 'Are you sure?', :post => true %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @author_pages.current.previous } if @author_pages.current.previous %>
+<%= link_to 'Next page', { :page => @author_pages.current.next } if @author_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New author', :action => 'new' %>

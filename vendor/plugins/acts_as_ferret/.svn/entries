@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="23"
+   name=""
+   committed-date="2006-04-27T20:40:07.952329Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins/acts_as_ferret"
+   last-author="jarkko"
+   kind="dir"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="23"
+   name="LICENSE"
+   text-time="2006-04-23T11:19:10.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="a129731dca94cd53c8b9e7c52f0e2bea"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="rakefile"
+   text-time="2006-04-23T11:19:10.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="52d08d7633aafbfd254980cafeb870f2"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="init.rb"
+   text-time="2006-03-02T22:28:37.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="9c2e9bea52de92ef8212f3b4db2ac081"
+   last-author="jarkko"
+   kind="file"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="README"
+   text-time="2006-04-23T11:19:10.000000Z"
+   committed-date="2006-04-27T20:40:07.952329Z"
+   checksum="38223baeb912ca7846b7b95f2f7bda30"
+   last-author="jarkko"
+   kind="file"/>
+</wc-entries>

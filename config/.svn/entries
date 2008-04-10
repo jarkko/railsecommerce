@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="36"
+   name=""
+   committed-date="2006-05-18T22:16:04.734767Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/config"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   revision="36"/>
+<entry
+   committed-rev="34"
+   name="mimetypes.conf"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-16T22:11:10.708791Z"
+   checksum="10a1bd70fec9233ece0eca24a8361cbe"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="1"
+   name="routes.rb"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T18:51:26.461756Z"
+   checksum="4baa7c1079117fffa194e2512d220a1e"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="28"
+   name="lighttpd.conf"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-13T22:21:27.600123Z"
+   checksum="16f3884fa30209d319eb846f7058ccca"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="2"
+   name="database.yml"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T20:28:36.547073Z"
+   checksum="703abf84f8b14f17f5ebbb4bc37b5f2f"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="boot.rb"
+   text-time="2006-04-12T09:39:03.000000Z"
+   committed-date="2006-03-22T18:51:26.461756Z"
+   checksum="6dfb2484bbb80e77501b09c80467cf94"
+   last-author="jarkko"
+   kind="file"
+   prop-time="2006-04-12T09:39:03.000000Z"/>
+<entry
+   committed-rev="24"
+   name="environment.rb"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:02:52.115667Z"
+   checksum="35f0e6f1e4de6c3ff5e6cee3d782f8da"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="34"
+   name="server.pem"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-16T22:11:10.708791Z"
+   checksum="df4f182b87519ca70ab4aabe8dd4109b"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   name="environments"
+   kind="dir"/>
+<entry
+   committed-rev="26"
+   name="emporium_env.rb"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-05T00:06:12.876062Z"
+   checksum="223b0d68f5c2624d3232f5d72212db83"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="36"
+   name="lighttpd-production.conf"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-18T22:16:04.734767Z"
+   checksum="015ea721b12525529d8c414f1965a418"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+<entry
+   committed-rev="36"
+   name="deploy.rb"
+   text-time="2006-07-06T08:58:35.000000Z"
+   committed-date="2006-05-18T22:16:04.734767Z"
+   checksum="17657e3f5e8b36b33ded348863fa5a61"
+   last-author="svn"
+   kind="file"
+   prop-time="2006-07-06T08:58:35.000000Z"/>
+</wc-entries>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="26"
+   name=""
+   committed-date="2006-05-05T00:06:12.876062Z"
+   url="http://jlaine.net/svn/railsecommerce/trunk/vendor/plugins"
+   last-author="svn"
+   kind="dir"
+   uuid="bbd0f7f5-710f-0410-b4d7-ad6dca5c0a8a"
+   repos="http://jlaine.net/svn/railsecommerce"
+   prop-time="2006-04-26T10:48:54.000000Z"
+   revision="36"/>
+<entry
+   name="for-1.1"
+   kind="dir"/>
+<entry
+   name="acts_as_ferret"
+   kind="dir"/>
+<entry
+   name="selenium_on_rails"
+   kind="dir"/>
+<entry
+   name="acts_as_threaded"
+   kind="dir"/>
+</wc-entries>

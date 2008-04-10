@@ -1,0 +1,5 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/railsecommerce/!svn/ver/23/trunk/db/migrate/004_add_created_at_to_books.rb
+END
